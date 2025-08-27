@@ -1,0 +1,274 @@
+<!-- CODE ATTRIBUTION -->
+<!-- TITLE: WEB DEVELOPMENT - WEDE5020/d/p/w MODULE MANUAL/GUIDE -->
+<!-- AUTHOR: The Independent Institute of Education (Pty) Ltd -->
+<!-- DATE: 20/08/2025 -->
+<!-- VERSION: 2025 Edition (First published in 2012) -->
+<!-- AVAILABLE: VARSITY COLLEGE SHAREPOINT (PRIVATE) -->
+
+<!-- CODE ATTRIBUTION (DOCUMENT TYPE & LANGUAGE) -->
+<!-- TITLE: The DOCTYPE / Language considerations -->
+<!-- AUTHOR: WHATWG (HTML Living Standard) / MDN Web Docs -->
+<!-- DATE: Accessed 20 Aug. 2025 -->
+<!-- AVAILABLE: https://html.spec.whatwg.org/multipage/syntax.html#the-doctype -->
+<!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Sustainability | Shop for a Cause</title>
+</head>
+
+<body>
+    <!-- Header: logo, site title, and hero image -->
+    <!-- CODE ATTRIBUTION (SEMANTIC <header> & ACCESSIBLE IMAGES) -->
+    <!-- TITLE: <header> — The Header element / Images in HTML (alt text) -->
+    <!-- AUTHOR: MDN Web Docs -->
+    <!-- DATE: Accessed 20 Aug. 2025 -->
+    <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header -->
+    <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML -->
+    <header>
+        <!-- Brand logo (alt describes the logo). Fixed size helps avoid layout shift--> <img src="_images/logo.png"
+            alt="Earth Sustainability logo" height="200" width="200">
+        <!--Main page title (good for SEO and screen readers)-->
+        <!-- CODE ATTRIBUTION (HEADING STRUCTURE & OUTLINE) -->
+        <!-- TITLE: Headings and implicit document outline -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20 Aug. 2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements -->
+        <h1>Earth Sustainability </h1>
+        <!-- Brand slogan (alt describes the slogan). Fixed size helps avoid layout shift--> <img
+            src="_images/slogan.png" alt="Earth Sustainability slogan" height="200" width="200">
+        <!--Short tagline using a paragraph-->
+        <!-- CODE ATTRIBUTION (PARAGRAPH ELEMENT) -->
+        <!-- TITLE: <p> — The Paragraph element -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20 Aug. 2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p -->
+        <p>Restore nature where people live</p>
+
+        <!-- CODE ATTRIBUTION (IMAGE TYPES & INTRINSIC SIZE) -->
+        <!-- TITLE: Image types and when to use them; intrinsic size and density -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20 Aug. 2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#intrinsic_size_and_density -->
+        <img src="_images/hero_banner.png" alt="Earth Sustainability Hero" height="450" width="1366">
+    </header>
+
+    <!--Navigation: main site links-->
+    <!-- CODE ATTRIBUTION (NAV LANDMARK & ANCHORS) -->
+    <!-- TITLE: <nav> — The Navigation section / <a> — The Anchor element -->
+    <!-- AUTHOR: MDN Web Docs -->
+    <!-- DATE: Accessed 20 Aug. 2025 -->
+    <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav -->
+    <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a -->
+    <nav>
+        <a href="index.html">Home</a>
+        <br>
+        <a href="donate.html">Donate</a>
+        <br>
+        <a href="shop.html">Shop</a>
+        <br>
+        <a href="about.html">About Us</a>
+        <br>
+        <a href="contact.html">Contact Us</a>
+        <br>
+    </nav>
+    <!-- MAIN CONTENT -->
+    <div>
+        <!-- Intro for shop for a cause -->
+        <!-- CODE ATTRIBUTION (SECTIONING & HEADINGS FOR STRUCTURE) -->
+        <!-- TITLE: Document and website structure (sections and headings) -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20 Aug. 2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure -->
+        <div>
+            <h2>Shop for a Cause</h2>
+
+            <p>Every purchase funds our community projects from tree planting, clean-ups, and eco-education. Choose from
+                our curated range of reusables and gifts that help reduce waste and restore local ecosystems. </p>
+        </div>
+
+        <!-- Transparency banner -->
+        <div>
+            <h3>Where the Profit Goes</h3>
+            <p>100% of profits support our programmes: saplings and after-care, litter-trap maintenance, and learner
+                kits for schools. Thank you for turning everyday purchases into lasting impact.</p>
+        </div>
+
+        <!-- Product Grid (3 x 3) -->
+        <!-- Fixed table width and fixed cell widths; each product cell is 380px wide -->
+        <!-- CODE ATTRIBUTION (USING TABLES FOR LAYOUT WITH ROLE="presentation") -->
+        <!-- TITLE: role="presentation"/"none" for layout tables -->
+        <!-- AUTHOR: WAI-ARIA 1.2 / MDN Web Docs -->
+        <!-- DATE: Accessed 20 Aug. 2025 -->
+        <!-- AVAILABLE: https://www.w3.org/TR/wai-aria-1.2/#presentation -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Role_Parity#presentational_roles -->
+        <div>
+            <h3>Featured Products</h3>
+            <table role="presentation" width="1200px">
+                <!-- Row 1-->
+                <tr>
+                    <td width="400px">
+                        <div>
+                            <!-- CODE ATTRIBUTION (ALT TEXT BASICS) -->
+                            <!-- TITLE: Adding images to a webpage — alt text -->
+                            <!-- AUTHOR: MDN Web Docs -->
+                            <!-- DATE: Accessed 20 Aug. 2025 -->
+                            <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_images_to_web_pages#alt_text -->
+                            <img src="_images/shop_bottle.png" alt="Reusable stainless steel bottle" width="240"
+                                height="240">
+                            <h4>Stainless Steel Bottle</h4>
+                            <p>R180</p>
+                            <p>Imapact: Funds gloves & bags for volunteer clean-ups. </p>
+                        </div>
+                    </td>
+
+                    <td width="400px">
+                        <div>
+                            <img src="_images/shop_tote_bag.png" alt=" Organic cotton tote bag" width="240"
+                                height="240">
+                            <h4>Organic Cotton Tote Bag</h4>
+                            <p>R120</p>
+                            <p>Imapact: Funds seedlings for school nurseries. </p>
+                        </div>
+                    </td>
+
+                    <td width="400px">
+                        <div>
+                            <img src="_images/shop_bamboo_cutlery_set.png" alt="Bamboo cutlery set in pouch" width="240"
+                                height="240">
+                            <h4>Bamboo Cutlery Set </h4>
+                            <p>R140</p>
+                            <p>Imapact: Helps plant one indigenous tree. </p>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- Row 2-->
+                <tr>
+                    <td width="400px">
+                        <div>
+                            <img src="_images/shop_seed_bomb.png" alt="Pack of seed bombs" width="240" height="240">
+                            <h4>Seed Bombs (Pack of 10 )</h4>
+                            <p>R80</p>
+                            <p>Imapact: Funds soil and compost for community gardens. </p>
+                        </div>
+                    </td>
+
+                    <td width="400px">
+                        <div>
+                            <img src="_images/shop_notebook.png" alt="Recycled paper notebook" width="240" height="240">
+                            <h4>Eco-Notebook</h4>
+                            <p>R60</p>
+                            <p>Imapact: supports classroom eco-learning materials. </p>
+                        </div>
+                    </td>
+
+                    <td width="400px">
+                        <div>
+                            <img src="_images/shop_handmade_soap.png" alt="Plastic-Free handmade soap." width="240"
+                                height="240">
+                            <h4>Handmade Soap </h4>
+                            <p>R50</p>
+                            <p>Imapact: Contributes to clean water acess at events.</p>
+                        </div>
+
+                    </td>
+                </tr>
+
+                <!-- Row 2-->
+                <tr>
+                    <td width="400px">
+                        <div>
+                            <img src="_images/shop_earth_sustainability_t-shirt..png"
+                                alt="Earth Sustainability branded t-shirt" width="240" height="240">
+                            <h4>Earth Sustainability T-Shirt</h4>
+                            <p>R220</p>
+                            <p>Imapact: sponsors a learner in our programme.</p>
+                        </div>
+                    </td>
+
+                    <td width="400px">
+                        <div>
+                            <img src="_images/shop_earth sustainability_branded_mug.png"
+                                alt="Earth Sustainability branded mug" width="240" height="240">
+                            <h4>Earth Sustainability Mug</h4>
+                            <p>R160</p>
+                            <p>Imapact: Supports transport for volunteers. </p>
+                        </div>
+                    </td>
+
+                    <td width="400px">
+                        <div>
+                            <img src="_images/shop_adopt-a-tree_certificate.png" alt="Adopt-a-Tree certificate"
+                                width="240" height="240">
+                            <h4>Adopt-a-Tree Certificate</h4>
+                            <p>R250</p>
+                            <p>Imapact: Plants & cares for one tree for 5 months.</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- HOW "SHOP FOR A CAUSE" SUPPORTS PROJECTS-->
+        <div>
+            <h3>How Your Purchase helps </h3>
+            <table role="presentation" width="1200px">
+                <tr>
+                    <td width="660px">
+                        <div>
+                            <h4>Reforestation</h4>
+                            <p>
+                                Product revenue buys saplings, stakes, compost, and watering cans while funding
+                                after-care checks so new trees survive through seasons and drought.
+                            </p>
+                        </div>
+                    </td>
+
+                    <td width="660px">
+                        <div>
+                            <h4>Education and clean-ups</h4>
+                            <p>
+                                Sales support learner, kits workshop printables, glvoes and bags for clean-ups, and data
+                                collection that guides future interventions.
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- ORDER & ENQUIRIES (STATIC FOR PART 1) -->
+        <!-- CODE ATTRIBUTION (CONTACT LINKS & BASIC TEXT CONTENT) -->
+        <!-- TITLE: Marking up contact info; <strong> importance -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20 Aug. 2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#marking_up_text -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong -->
+        <div>
+            <h3>Order and Enquiries</h3>
+            <p>
+                For now can you please email <strong>shop@earthsustainability.org</strong> with the product name(s) and
+                quantity. We will confirm availability, delivery options, and provide a payment link or EFT
+                instructions.
+            </p>
+        </div>
+    </div>
+
+    <!-- CODE ATTRIBUTION (FOOTER ELEMENT) -->
+    <!-- TITLE: <footer> — The Footer element -->
+    <!-- AUTHOR: MDN Web Docs -->
+    <!-- DATE: Accessed 20 Aug. 2025 -->
+    <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer -->
+    <footer>
+        <p>&copy;2011 Earth Sustainability. All rights reserved</p>
+        <p>Eamil: info@earthsustainability.org | Phone: +27 (0)31 555 1234</p>
+    </footer>
+</body>
+
+</html>

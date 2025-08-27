@@ -1,0 +1,323 @@
+<!-- CODE ATTRIBUTION -->
+<!-- TITLE: HTML Tutorial -->
+<!-- AUTHOR: W3Schools -->
+<!-- DATE: 20/08/2025 -->
+<!-- VERSION: N/A -->
+<!-- AVAILABLE: https://www.w3schools.com/html/ [Accessed 20 Aug. 2025] -->
+
+<!-- CODE ATTRIBUTION -->
+<!-- TITLE: WEB DEVELOPMENT - WEDE5020/d/p/w MODULE MANUAL/GUIDE -->
+<!-- AUTHOR: The Independent Institute of Education (Pty) Ltd -->
+<!-- DATE: 20/08/2025 -->
+<!-- VERSION: 2025 Edition (First published in 2012) -->
+<!-- AVAILABLE: VARSITY COLLEGE SHAREPOINT (PRIVATE) -->
+
+<!-- CODE ATTRIBUTION (HEAD META & SEMANTIC STRUCTURE) -->
+<!-- TITLE: HTML Standard (metadata; semantics) -->
+<!-- AUTHOR: WHATWG (HTML Living Standard) -->
+<!-- DATE: Accessed 20/08/2025-->
+<!-- AVAILABLE: https://html.spec.whatwg.org/multipage/semantics.html#semantics -->
+
+<!-- CODE ATTRIBUTION (RESPONSIVE VIEWPORT META) -->
+<!-- TITLE: Using the viewport meta tag to control layout on mobile browsers -->
+<!-- AUTHOR: MDN Web Docs -->
+<!-- DATE: Accessed 20/08/2025 -->
+<!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- CODE ATTRIBUTION (CHARACTER ENCODING) -->
+    <!-- TITLE: <meta charset> -->
+    <!-- AUTHOR: MDN Web Docs -->
+    <!-- DATE: Accessed 20/08/2025 -->
+    <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-charset -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earth Sustainability | Contact Us</title>
+</head>
+
+<body>
+
+    <!-- Header: logo, site title, and hero image -->
+    <!-- CODE ATTRIBUTION (SEMANTIC <header> & ALT TEXT PRACTICES) -->
+    <!-- TITLE: <header> — The Header element / Alt text basics -->
+    <!-- AUTHOR: MDN Web Docs -->
+    <!-- DATE: Accessed 20/08/2025 -->
+    <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header -->
+    <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_images_to_web_pages#alt_text -->
+
+    <header>
+        <!-- Brand logo (alt describes the logo). Fixed size helps avoid layout shift -->
+        <img src="_images/logo.png" alt="Earth Sustainability logo" height="200" width="200">
+        <!-- Main page title (good for SEO and screen readers) -->
+        <!-- CODE ATTRIBUTION (HEADINGS & DOCUMENT OUTLINE) -->
+        <!-- TITLE: Headings and sectioning content -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20/08/2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements -->
+        <h1>Earth Sustainability </h1>
+
+        <!-- Brand slogan (alt describes the slogan). Fixed size helps avoid layout shift -->
+        <img src="_images/slogan.png" alt="Earth Sustainability slogan" height="200" width="200">
+
+        <!-- Short tagline using a paragraph -->
+        <!-- CODE ATTRIBUTION (TEXT CONTENT ELEMENTS) -->
+        <!-- TITLE: <p> — The Paragraph element -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20/08/2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p -->
+        <p>Restore nature where people live</p>
+
+        <!-- Contact page hero (fixed px) -->
+        <img src="_images/hero_banner.png" alt="Earth Sustainability Hero" height="450" width="1366">
+    </header>
+
+    <!-- Navigation: main site links -->
+    <!-- CODE ATTRIBUTION (SEMANTIC <nav> & ACCESSIBILITY OF LINKS) -->
+    <!-- TITLE: <nav> — The Navigation section / ARIA: aria-current for active links -->
+    <!-- AUTHOR: MDN Web Docs / WAI-ARIA 1.2 -->
+    <!-- DATE: Accessed 20/08/2025 -->
+    <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav -->
+    <!-- AVAILABLE: https://www.w3.org/TR/wai-aria-1.2/#aria-current -->
+    <nav>
+        <a href="index.html">Home</a><br>
+        <a href="donate.html">Donate</a><br>
+        <a href="shop.html">Shop</a><br>
+        <a href="about.html">About Us</a><br>
+        <a href="contact.html" aria-current="page">Contact Us</a><br>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div>
+
+        <!-- Intro -->
+        <!-- CODE ATTRIBUTION (SECTIONING & HEADINGS FOR STRUCTURE) -->
+        <!-- TITLE: Using HTML sections and headings for content structure -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20/08/2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure -->
+        <div>
+            <h2>Contact Us</h2>
+            <p>
+                At Earth Sustainability, we value genuine connections with our community, supporters, and partners.
+                Whether you want to ask a question, volunteer your time, donate, or simply share your ideas, we would
+                love to hear from you. Every voice matters in our mission to protect the planet, and your contribution —
+                no matter how big or small — makes a difference.
+            </p>
+        </div>
+
+        <!-- Emails -->
+        <!-- CODE ATTRIBUTION (TABLES FOR LAYOUT WITH ROLE="presentation") -->
+        <!-- TITLE: Using the role="presentation" / role="none" on tables used purely for layout -->
+        <!-- AUTHOR: WAI-ARIA (W3C) / MDN Web Docs -->
+        <!-- DATE: Accessed 20/08/2025 -->
+        <!-- AVAILABLE: https://www.w3.org/TR/wai-aria-practices-1.2/#presentation_role -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Role_Parity#presentational_roles -->
+        <div>
+            <h3>Get in Touch by Email</h3>
+            <table role="presentation" width="1000px">
+                <tr>
+                    <td width="500px">
+                        <div>
+                            <!-- CODE ATTRIBUTION (mailto: links) -->
+                            <!-- TITLE: Using mailto links -->
+                            <!-- AUTHOR: MDN Web Docs -->
+                            <!-- DATE: Accessed 20/08/2025 -->
+                            <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#email_links -->
+                            <p><strong>General Enquiries:</strong> <a
+                                    href="mailto:info@earthsustainability.org">info@earthsustainability.org</a></p>
+                            <p><strong>Volunteer Opportunities:</strong> <a
+                                    href="mailto:volunteer@earthsustainability.org">volunteer@earthsustainability.org</a>
+                            </p>
+                        </div>
+                    </td>
+                    <td width="500px">
+                        <div>
+                            <p><strong>Donations &amp; Sponsorships:</strong> <a
+                                    href="mailto:donate@earthsustainability.org">donate@earthsustainability.org</a></p>
+                            <p><strong>Press &amp; Media:</strong> <a
+                                    href="mailto:media@earthsustainability.org">media@earthsustainability.org</a></p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <p>We do our best to respond to all emails within <strong>48 hours</strong>. We keep communication warm,
+                prompt, and respectful.</p>
+        </div>
+
+        <!-- Phone & Hours -->
+        <!-- CODE ATTRIBUTION (CONTACT INFO MARKUP PATTERNS) -->
+        <!-- TITLE: Marking up contact information semantically -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20/08/2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#marking_up_text -->
+        <div>
+            <h3>Call Us</h3>
+            <p>Prefer speaking to someone directly? Our team is available <strong>Monday to Friday, 09:00–17:00
+                    (SAST)</strong>.</p>
+            <p><strong>Phone:</strong> +27 (0)31 555 1234</p>
+        </div>
+
+        <!-- Office Locations & Maps -->
+        <!-- CODE ATTRIBUTION (IMAGES WITH MEANINGFUL ALT; TABLE LAYOUT) -->
+        <!-- TITLE: Images in HTML / Accessible images -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20/08/2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML -->
+        <div>
+            <h3>Visit Us</h3>
+            <p>Visit our offices to chat, donate goods, or attend a workshop. We’re excited to meet you!</p>
+
+            <table role="presentation" width="1000px">
+                <tr>
+                    <td width="500px">
+                        <div>
+                            <h4>Durban HQ</h4>
+                            <p>45 Green Avenue, Durban North, KwaZulu-Natal, South Africa</p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.3386732452354!2d31.035617799999997!3d-29.796758600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef707aa871594bd%3A0x8f02f03f86d820cd!2sThe%20IIE&#39;s%20Varsity%20College%20-%20Durban%20North!5e0!3m2!1sen!2sza!4v1756322096970!5m2!1sen!2sza"
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </td>
+                    <td width="500px">
+                        <div>
+                            <h4>Johannesburg Hub</h4>
+                            <p>45 Lucas Street, Johannesburg, Gauteng, 2853, South Africa</p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.163708164974!2d28.047745799999998!3d-26.093574199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95733c18d3cb89%3A0xed59860bb3c2c891!2sThe%20IIE&#39;s%20Varsity%20College%20-%20Sandton!5e0!3m2!1sen!2sza!4v1756322123331!5m2!1sen!2sza"
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Social Links -->
+        <!-- CODE ATTRIBUTION (ANCHOR ELEMENT; LINK TEXT) -->
+        <!-- TITLE: <a> — The Anchor element -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20/08/2025-->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a -->
+        <div>
+            <h3>Stay Connected</h3>
+            <table role="presentation" width="1000px">
+                <tr>
+                    <td width="500px">
+                        <div>
+                            <p><strong>Facebook:</strong> <a href="#">facebook.com/earthsustainability</a></p>
+                            <p><strong>Instagram:</strong> <a href="#">instagram.com/earthsustainability</a></p>
+                        </div>
+                    </td>
+                    <td width="500px">
+                        <div>
+                            <p><strong>Twitter/X:</strong> <a href="#">twitter.com/earthsustain_org</a></p>
+                            <p><strong>LinkedIn:</strong> <a href="#">linkedin.com/company/earthsustainability</a></p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Contact Form (static for Part 1) -->
+        <!-- CODE ATTRIBUTION (FORMS, LABELS, INPUT TYPES, SELECT, TEXTAREA, BUTTON) -->
+        <!-- TITLE: Web forms — Working with user data (HTML forms guide) -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20/08/2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/Forms -->
+        <!-- TITLE: <form>, <input>, <label>, <select>, <textarea>, <button> reference docs -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20/08/2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button -->
+        <div>
+            <h3>Online Contact Form</h3>
+            <p>Fill in your details below and one of our team members will get back to you as soon as possible.</p>
+            <form action="#" method="post">
+                <table role="presentation" width="800px">
+                    <tr>
+                        <td width="250px"><label for="name"><strong>Your Name</strong></label></td>
+                        <td width="550px"><input id="name" name="name" type="text" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td width="250px"><label for="email"><strong>Email Address</strong></label></td>
+                        <td width="550px"><input id="email" name="email" type="email" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td width="250px"><label for="phone"><strong>Phone Number</strong></label></td>
+                        <td width="550px"><input id="phone" name="phone" type="tel" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td width="250px"><label for="subject"><strong>Subject</strong></label></td>
+                        <td width="550px">
+                            <select id="subject" name="subject">
+                                <option>General Enquiry</option>
+                                <option>Volunteer</option>
+                                <option>Donation / Sponsorship</option>
+                                <option>Media / Press</option>
+                                <option>Partnership</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="250px"><label for="message"><strong>Message</strong></label></td>
+                        <td width="550px"><textarea id="message" name="message" rows="6" cols="58"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td width="250px"></td>
+                        <td width="550px"><button type="submit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <!-- Newsletter Signup (static for Part 1) -->
+        <!-- CODE ATTRIBUTION (BASIC FORMS — NEWSLETTER EXAMPLE PATTERN) -->
+        <!-- TITLE: Client-side form basics (example patterns) -->
+        <!-- AUTHOR: MDN Web Docs -->
+        <!-- DATE: Accessed 20/08/2025 -->
+        <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form -->
+        <div>
+            <h3>Newsletter Signup</h3>
+            <p>Get project updates, event invites, and tips for living more sustainably.</p>
+            <form action="#" method="post">
+                <table role="presentation" width="600px">
+                    <tr>
+                        <td width="200px"><label for="newsletter_email"><strong>Email</strong></label></td>
+                        <td width="400px"><input id="newsletter_email" name="newsletter_email" type="email" size="40">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="200px"></td>
+                        <td width="400px"><button type="submit">Subscribe</button></td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+
+    </div><!-- /main content -->
+
+    <!-- Footer -->
+    <!-- CODE ATTRIBUTION (SEMANTIC <footer>) -->
+    <!-- TITLE: <footer> — The Footer element -->
+    <!-- AUTHOR: MDN Web Docs -->
+    <!-- DATE: Accessed 20/08/2025 -->
+    <!-- AVAILABLE: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer -->
+    <footer>
+        <p>&copy; 2025 Earth Sustainability. All rights reserved.</p>
+        <p>Email: info@earthsustainability.org | Phone: +27 (0)31 555 1234</p>
+    </footer>
+
+</body>
+
+</html>
